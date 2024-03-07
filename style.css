@@ -1,0 +1,168 @@
+
+
+#header
+{
+    z-index: 100;
+    background:var(--bs-dark);
+}
+.navbar-brand
+{
+    color:var(--bg-green);
+}
+.active
+{
+    color:var(--bg-success);
+}
+
+.nav-link
+{
+    color:var(--light);
+    padding: 1rem;
+}
+.nav-link:hover
+{
+    font-weight: bold;
+    color:var(--bs-blue);
+}
+/* .section
+{
+    min-height: 90vh;
+} */
+
+.btn
+{
+    transform: translate();
+    animation: pop 1s linear infinite;
+}
+
+@keyframes pop {
+    
+    from{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+#bg
+{
+    box-shadow: none;
+    animation: bg 1s linear infinite alternate;
+}
+
+@keyframes bg{
+    
+    from{
+        filter: blur(10px);
+        box-shadow: 5px 5px 10px 10px var(--bg-dark);
+        /* transform: scale(0.8); */
+    }
+    to{
+        /* transform: scale(1); */
+        filter: blur(0);
+        box-shadow: 2px 2px 5px 10px var(--bg-success);
+    }
+}
+
+#home,#about
+{
+    background: #c6bdc6;
+    background:linear-gradient(to bottom,#dbf6e9,#fff);
+}
+
+#gallery
+{
+    display: grid !important;
+    grid-template: 1fr 1fr 1fr !important;
+}
+
+#gal
+{
+    font-weight: lighter;
+    border-radius: 2rem;
+}
+
+#gallary img:hover
+{
+    box-shadow: 10px 10px 40px gray;
+    transform: scale(1.1);
+}
+
+
+
+#heading
+{
+    background: var(--bg-dark);
+}
+#heading .h1
+{
+    font-weight: lighter;
+}
+
+#index
+{
+    position: relative;
+}
+
+#index > img
+{
+    position: absolute;
+    box-shadow: 5px 5px 5px var(--bs-dark);
+}
+#lastimg
+{
+    top:50px;
+    left: 0px;
+    position: absolute;
+    z-index: 5;
+    top: 30%;
+    width: 400px;
+}
+
+#firstimg
+{
+    top:50px;
+    left: 200px;
+    z-index: 10;
+    width: 400px;
+    /* transform: skew(30deg); */
+}
+
+#join
+{
+    background:linear-gradient(#dbf6e9,#fff);
+}
+#joinf
+{
+    padding: 1rem;
+    width: 60%;
+}
+#myform
+{
+    width: 700px;
+    padding: 2rem;
+}
+
+.mya
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px 1rem;
+    color:#198754;
+}
+#con a
+{
+    padding: 1rem;
+    border-radius: 1rem;
+    display: block;
+    text-decoration: none;
+    color: var(--bg-success);
+    border: 1px solid gray;
+}
+#con a:hover
+{
+    color:#007bff;
+}
+
+/* .  */
